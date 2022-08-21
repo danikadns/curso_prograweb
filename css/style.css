@@ -1,0 +1,24 @@
+.articulo{
+    background: silver;
+    border: 1px solid gray;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+article footer {
+    text-align: right;
+    color: red
+}
+
+figcaption{
+    font: italic 8px sans-serif;
+}
+
+div{
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    
+}

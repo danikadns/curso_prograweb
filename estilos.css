@@ -1,0 +1,109 @@
+/* REFERENCIA POR PALABRA CLAVE DEL ELEMENTO */
+p { 
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* REFERENCIA POR EL ATRIBUTO ID */
+
+#textoporid {
+    font-size: 14px;
+    color: red;
+}
+
+
+/* REFERENCIA POR EL ATRIBUTO CLASS */
+
+.labelAzul{
+    color: blue;
+}
+
+.labelVerde{
+    color: green;
+}
+
+/*REFERENCIA POR CUALQUIER COMPONENTE
+name es un atributo*/
+
+p[name="tercerp"]{
+    font-size: 10px;
+
+}
+
+p[name="cuartop"]{
+    font-size: 5px;
+
+}
+
+p[name="quintop"]{
+    font-size: 15px;
+
+}
+
+p[name]{
+    color: blueviolet;
+}
+
+/*REFERENCIA POR COMBINACIONES
+* EXPRESIONES REGULARES
+*/
+
+/*los que comienzan con esa palabra*/
+p[name^="par"]{ 
+    color: yellow;
+
+}
+
+/*asigna a todos los que finalizan con el texto*/
+p[name$="aguas"]{ 
+    color: gray;
+
+}
+
+/*todos los atributo que incluye esa palabra*/
+p[name*="parr"]{
+    color: orangered;
+
+}
+
+/*PSEUDO CLASES*/
+
+.mitexto:nth-child(1){
+    background: blue;
+}
+
+.mitexto:nth-child(2){
+    background: orange;
+}
+
+.mitexto:nth-child(3){
+    background: yellow;
+}
+
+.mitexto:nth-child(4){
+    background: green;
+}
+
+.mitexto:nth-child(5){
+    background: red;
+}
+
+* {
+    margin: 0px;
+}
+
+p:last-child{
+    font-weight: normal;
+    color: white;
+}
+
+:not(.mitexto){
+    margin: 10px;
+}
+
+
+/* NUEVOS SELECTORES */
+
+div > p.mitexto{
+    font-family: 'Lucida Sans Unicode';
+}
