@@ -19,6 +19,7 @@ div{
     width: 200px;
     margin: 20px;
     padding: 10px;
-    border: 1px solid gray;
+    border: 1px solid black;
+    box-sizing: border-box;
     
 }
