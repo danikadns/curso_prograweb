@@ -4,6 +4,7 @@
     padding: 20px;
     margin-bottom: 15px;
     border-radius: 10px;
+    
 }
 
 article footer {
@@ -21,4 +22,12 @@ div{
     padding: 10px;
     border: 1px solid black;
     box-sizing: border-box;
+}
+
+.opcion a {
+    text-decoration: none;
+}
+
+.atmo{
+    text-align: justify;
 }

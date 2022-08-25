@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta charset="iso-8859-1">   
         <meta name = "Ejemplo" content="Documento de ejemplo" >
         <meta name="keywords" content="HTML5, CSS3, Javascript">
-        <title>Estructura basica de la web</title>
+        <title>Principal</title>
         <link rel="stylesheet" href="css/init.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/template.css">
@@ -14,17 +16,17 @@
         <div id="divGeneral">
 
         <header id="cabecera">
-            <h1 id="tituloprincipal">Este es el header de la pagina web</h1>
+            <h1 id="tituloprincipal">La ciencia en la actualidad</h1>
             <h2>Subtitulo</h2>
         </header>
 
         <nav id="menu">
             <ul>
-                <li class="opcion">Principal</li>
+                <li class="opcion"><a href="index.html" style="text-decoration:none">Principal</a></li>
                 <li class="opcion"><a href="fotos.html">Fotos</a></li>
-                <li class="opcion">Videos</li>
-                <li class="opcion">Documentos</li>
-                <li class="opcion">Contacto</li>
+                <li class="opcion"><a href="videos.html">Videos</a></li>
+                <li class="opcion"><a href="documentos.html">Documentos</a></li>
+                <li class="opcion"><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
 
@@ -32,8 +34,25 @@
             <article class="articulo">
                 <header>
                     <hgroup>
-                    <h1 class="tituloHeadorArticulo">Titulo del articulo 1</h1>
+                    <h1 class="tituloHeadorArticulo">La atmósfera de la Tierra tiene fecha de caducidad</h1>
                     <h2>Subtitulo del articulo 1</h2>
+                    
+                    <br> 
+
+                    <p class="atmo">un nuevo estudio publicado en la revista Nature Geoscience bajo el título The future lifespan of Earth’s 
+                        oxygenated atmosphere aborda este problema utilizando un modelo numérico que aúna biogeoquímica y climatología, 
+                        y revela que la vida útil futura de la atmósfera rica en oxígeno de la Tierra es de aproximadamente 1.000 millones 
+                        de años.</p>
+
+                    <br> 
+
+                    <p class="atmo">"Durante muchos años, la vida útil de la biosfera de la Tierra se ha debatido en base a lo que sabemos sobre el sol y 
+                        el ciclo geoquímico carbonato-silicato global" explica Kazumi Ozaki, profesor asistente en la Universidad de Toho. El 
+                        ciclo carbonato-silicato global es uno de los mecanismos que permiten que la temperatura media de nuestro planeta se 
+                        mantenga en equilibrio dentro de unos márgenes que permiten la existencia de agua líquida. Este funciona de modo que al 
+                        aumentar la temperatura global, consecuentemente aumenta la erosión de las rocas, liberando el calcio atrapado en ellas 
+                        al mar, y estimulando la formación de rocas calizas que secuestran de nuevo el CO2 atmosférico.</p>
+                    <br> 
                     </hgroup>
                     <time datetime="2022.08-13" pubdate>Publicado el 12-08-2022</time>
                 </header>
@@ -49,6 +68,7 @@
                     <hgroup>
                     <h1 class="tituloHeadorArticulo">Titulo del articulo 2</h1>
                     <h2>Subtitulo del articulo 2</h2>
+                    
                     </hgroup>
                     <time datetime="2022.08-13" pubdate>Publicado el 20-08-2022</time>
                 </header>
