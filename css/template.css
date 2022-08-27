@@ -6,7 +6,7 @@
 }
 
 body{
-    background: url(https://w.wallhaven.cc/full/72/wallhaven-72j1qo.jpg);
+    background: url(https://w.wallhaven.cc/full/nm/wallhaven-nmllzy.jpg);
     width: 100%;
     height: 100vh;
     background-repeat: repeat-y;
@@ -27,7 +27,7 @@ h2{
 }
 
 h3{
-    font: bold 16px verdana, sans-serif;
+    font: normal 16px helvetica, sans-serif;
 }
 
 h4{
@@ -42,31 +42,39 @@ h6{
     font: bold 10px verdana, sans-serif;
 }
 
-p{
-    font: medium 14px Arial;
-}
+
 
 
 /* DISEÑO DEL TEMPLATE */
-
+/*diseño del div general donde están contenidos los elementos de la página*/
 #divGeneral{
     width: 980px;
     margin: 15px auto;
     text-align: left;
 }
-
+/*El diseño del header de la página*/
 #cabecera{
     background: linear-gradient(45deg, #2833DB, #28DB76);
     padding: 20px;
     color: white;
 }
-
-#menu{
-    
-    background:#75b9f0;
-    padding: 5px 15px;
-    
+#logo{
+    height: 70px;
+    float: left;
+    margin-right: 20px;
 }
+
+
+/*diseño barra de opciones*/
+.opcion a {
+    text-decoration: none;
+    color: black;
+}
+#menu{
+    background:#75b9f0;
+    padding: 5px 15px; 
+}
+
 
 #menu li{
     margin-left: 20px;
@@ -79,6 +87,7 @@ p{
 #menu li a:hover{
     color: rgba(0, 12, 245, 0.832);
 }
+
 
 #seccionPrincipal{
     float: right;
@@ -94,34 +103,33 @@ p{
     background: rgb(140, 140, 233);
 }
 
+/*Diseño del footer con redes sociales y teléfono
+*background de degradado
+*/
 #footer{
     clear:both;
     margin-left: 0;
     text-align: center;
     align-items: center;
-    height: 100%;
+    height: 90%;
     width: 100%;
     color: whitesmoke;
     border-top: 3px solid rgba(0, 206, 72, 0.799);
     background: linear-gradient(45deg, #2833DB, #8B1DA3);
     margin-block-end: 0;
 }
-
-
 .box{
     border: none;
     margin: 0;
     text-align: left;
     margin-top: 0;
 }
-
 .box1{
     border: none;
     margin: 0;
     text-align: center;
     margin-top: 0;
 }
-
 .grupo1{
     text-align: center;
     align-content: center;
@@ -129,10 +137,8 @@ p{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    
+    grid-gap: 50px; 
 }
-
 .contacto {
     list-style: none;
     text-decoration: none;
@@ -156,14 +162,6 @@ p{
     color: rgba(184, 98, 255, 0.832);
 }
 
-
-
-#logo{
-    height: 70px;
-    float: left;
-    margin-right: 20px;
-}
-
 #tel{
     text-decoration: none;
     color: aliceblue;
@@ -172,6 +170,7 @@ p{
     color: rgba(184, 98, 255, 0.832);
 }
 
+/*diseño de la página de fotos*/
 div.galeria{
     background-color: white;
     margin: 20px 30px;
@@ -180,31 +179,28 @@ div.galeria{
     width: 250px;
     height: 450px;
 }
-
 div.galeria img{
     border: none;
     border-style: none;
     width: 100%;
     height: auto;
 }
-
 div.galeria .foto{
     border: none;
     align-content: center;
 }
-
 div.galeria:hover{
     border: 1px solid blue;
     transform: rotate(-3deg);
 }
-
 div.pie{
     border: none;
     text-align: left;
-    font: bold 14px times;
+    font: bold 20px;
     padding: 10px;
 }
 
+/*Diseño de la página de videos*/
 .video{
     text-align: center;
     position: relative;
@@ -214,9 +210,7 @@ div.pie{
     border: 3px solid red;
     margin-bottom: 15px;
     background-color: azure;
-
 }
-
 .video iframe{
     margin-top: 6px;
     margin-left:0;
@@ -231,6 +225,20 @@ div.pie{
     text-align: right;
     margin-top: 10px;
     margin-right: 10px;
+}
+
+/*diseño página principal y sidebar*/
+.letra-reg{
+    font: bold 16px Arial;
+    text-decoration: none;
+}
+.atmo{
+    text-align: justify;
+    font: medium 14px Arial;
+}
+
+.tiempo{
+    color: black;
 }
 
 .imgArt{
@@ -249,7 +257,7 @@ div.pie{
     width: 100%;
     height: auto;
     margin: 0%;
-    margin-top: 4px;
+    margin-top: 6px;
     background-color: azure;
 
 }
@@ -270,71 +278,23 @@ div.pie{
     width: 100%;
 }
 
+/*diseño página de documentos*/
 .documento{
-    text-decoration: none;
     margin-left:0;
     text-align: left;
     top: 0;
     left: 0;
     width: 100%;
-    background: whitesmoke;
-}
-
-
-.letra-reg{
-    font: bold 16px Arial;
-    text-decoration: none;
-}
-
-.opcion a {
-    text-decoration: none;
-}
-
-.atmo{
-    text-align: justify;
-    font: medium 14px Arial;
-}
-
-.tiempo{
+    background: rgba(228, 247, 254, 0.951);
     color: black;
 }
 
-.slider{
-    width: 100%;
-    height: 600px;
-    overflow: hidden;
+.documento1{
+    text-decoration: none;
+    color: rgb(170, 3, 3);
 }
 
-.slider ul{
-    width: 400%;
-    display: flex;
-    animation: movimiento 20s infinite alternate linear;
 
-}
 
-.slider li{
-    width: 100%;
-    list-style: none;
 
-}
 
-.slider img{
-    width: auto;
-    height: auto;
-
-}
-
-@keyframes movimiento{
-    0%{margin-left: 0;}
-    20%{margin-left: 0;}
-
-    25%{margin-left: -100%;}
-    45%{margin-left: -100%0;}
-
-    50%{margin-left: -200%;}
-    70%{margin-left: -200%;}
-
-    75%{margin-left: -300%;}
-    100%{margin-left: -300%;}
-    
-}
