@@ -1,19 +1,19 @@
 .articulo{
-    background: silver;
-    border: 1px solid gray;
+    background: white;
+    border: 1px solid rgb(4, 0, 241);
     padding: 20px;
     margin-bottom: 15px;
     border-radius: 10px;
     
 }
 
-article footer {
+article footer{
     text-align: right;
     color: red
 }
 
 figcaption{
-    font: italic 8px sans-serif;
+    font: italic 12px sans-serif;
 }
 
 div{
@@ -24,10 +24,5 @@ div{
     box-sizing: border-box;
 }
 
-.opcion a {
-    text-decoration: none;
-}
 
-.atmo{
-    text-align: justify;
-}
+

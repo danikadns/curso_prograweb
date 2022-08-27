@@ -6,5 +6,7 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup {
 
 body{ 
     text-align: center;
+    align-content: center;
+    border: none;
 }
 

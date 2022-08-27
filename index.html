@@ -3,30 +3,35 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta charset="iso-8859-1">   
-        <meta name = "Ejemplo" content="Documento de ejemplo" >
-        <meta name="keywords" content="HTML5, CSS3, Javascript">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <title>Principal</title>
         <link rel="stylesheet" href="css/init.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     </head>
     <body>
         
         <div id="divGeneral">
 
         <header id="cabecera">
+            <section>
+                <img id="logo" src="https://cdn-icons-png.flaticon.com/512/5332/5332440.png"
+                alt="Logo">
+
+            </section>
+
             <h1 id="tituloprincipal">La ciencia en la actualidad</h1>
             <h2>Subtitulo</h2>
         </header>
 
         <nav id="menu">
             <ul>
-                <li class="opcion"><a href="index.html" style="text-decoration:none">Principal</a></li>
-                <li class="opcion"><a href="fotos.html">Fotos</a></li>
+                <li class="opcion"><a href="index.html">Principal</a></li>
+                <li class="opcion"><a href="galery.html">Fotos</a></li>
                 <li class="opcion"><a href="videos.html">Videos</a></li>
                 <li class="opcion"><a href="documentos.html">Documentos</a></li>
-                <li class="opcion"><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
 
@@ -35,89 +40,245 @@
                 <header>
                     <hgroup>
                     <h1 class="tituloHeadorArticulo">La atmósfera de la Tierra tiene fecha de caducidad</h1>
-                    <h2>Subtitulo del articulo 1</h2>
+                    <h2>Una breve historia del oxígeno en la Tierra</h2>
                     
                     <br> 
 
-                    <p class="atmo">un nuevo estudio publicado en la revista Nature Geoscience bajo el título The future lifespan of Earth’s 
+                    <p class="atmo">Un nuevo estudio publicado en la revista Nature Geoscience bajo el título The future lifespan of Earth’s 
                         oxygenated atmosphere aborda este problema utilizando un modelo numérico que aúna biogeoquímica y climatología, 
                         y revela que la vida útil futura de la atmósfera rica en oxígeno de la Tierra es de aproximadamente 1.000 millones 
-                        de años.</p>
-
-                    <br> 
-
-                    <p class="atmo">"Durante muchos años, la vida útil de la biosfera de la Tierra se ha debatido en base a lo que sabemos sobre el sol y 
+                        de años. 
+                        <br>
+                    </br>
+                        "Durante muchos años, la vida útil de la biosfera de la Tierra se ha debatido en base a lo que sabemos sobre el sol y 
                         el ciclo geoquímico carbonato-silicato global" explica Kazumi Ozaki, profesor asistente en la Universidad de Toho. El 
                         ciclo carbonato-silicato global es uno de los mecanismos que permiten que la temperatura media de nuestro planeta se 
                         mantenga en equilibrio dentro de unos márgenes que permiten la existencia de agua líquida. Este funciona de modo que al 
                         aumentar la temperatura global, consecuentemente aumenta la erosión de las rocas, liberando el calcio atrapado en ellas 
-                        al mar, y estimulando la formación de rocas calizas que secuestran de nuevo el CO2 atmosférico.</p>
-                    <br> 
-                    </hgroup>
-                    <time datetime="2022.08-13" pubdate>Publicado el 12-08-2022</time>
-                </header>
-                Este es el contenido del articulo 1
-
-                <footer>
-                    <p>Comentarios (0)</p>
-                </footer>
-
-            </article>
-            <article class="articulo">
-                <header>
-                    <hgroup>
-                    <h1 class="tituloHeadorArticulo">Titulo del articulo 2</h1>
-                    <h2>Subtitulo del articulo 2</h2>
+                        al mar, y estimulando la formación de rocas calizas que secuestran de nuevo el CO2 atmosférico.
+                        <br>
+                    </br>
                     
+                        Por contra intuitivo que pueda parecer, a largo plazo; a una escala de tiempo geológica, esta progresiva retirada de 
+                        CO2 atmosférico tendría como resultado final la extinción de todo el CO2 de la atmósfera de la Tierra. "De hecho, 
+                        generalmente se piensa que la biosfera de la Tierra llegará a su fin en los próximos 2.000 millones de años debido a 
+                        una combinación de sobrecalentamiento y una escasez de CO2 para la fotosíntesis. Y de ser cierto, cabe esperar que del 
+                        mismo modo los niveles de O2 atmosférico decaigan en un futuro lejano", continúa Ozaki. "Sin embargo, sigue sin estar 
+                        demasiado claro cuándo y cómo ocurrirá esto exactamente", añade el autor.</p>
+                    <br> 
+
+                    <figure class="imgArt">
+                        <img src="https://www.nationalgeographic.com.es/medio/2021/03/09/nubes-mastodonticas_f044fc9b_1280x853.jpg" class="imgArt">
+                
+                        <figcaption class="letra-reg">
+                            Nubes Mastodónticas <br><br>
+                        </figcaption>
+                    </figure>
                     </hgroup>
-                    <time datetime="2022.08-13" pubdate>Publicado el 20-08-2022</time>
+                    
                 </header>
-                Este es el contenido del articulo 2
-                <figure>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Sign-check-icon.png"
-                    width="100"
-                    height="100">
-            
-                    <figcaption>
-                        Esta es la imagen que se carga desde Internet
-                    </figcaption>
-                </figure>
-                <time datetime="2022.08-13" pubdate>Publicado el 12-08-2022</time>
+                
                 <footer>
+                    <time datetime="2022-08-23" pubdate class="tiempo">Publicado el 23-08-2022</time>
+                    <br>
+                    <p class="tiempo">Héctor Rodríguez</p>
                     <p>Comentarios (0)</p>
                 </footer>
+
             </article>
+            
+
+
             <article class="articulo">
                 <header>
                     <hgroup>
-                    <h1 class="tituloHeadorArticulo">Titulo del articulo 3</h1>
-                    <h2>Subtitulo del articulo 3</h2>
+                    <h1 class="tituloHeadorArticulo">Un nuevo mineral para entender el manto de la Tierra</h1>
+                    <h2>Davemaotita: un nuevo mineral</h2>
+                    
+                    <br> 
+
+                    <p class="atmo">Un pequeño fragmento de roca atrapado en el interior de un diamante tiene 
+                        la clave sobre algunos secretos geológicos de nuestro planeta. Este pequeño trozo de 
+                        roca ha abierto una ventana al conocimiento de la composición y estructura de los materiales 
+                        presentes en el manto interior de la Tierra. El diamante procedía de una mina de Botsuana y se 
+                        formó a más de 660 kilómetros de profundidad, en el límite superior del manto interior, y en su
+                         interior se encuentra un mineral de silicato recién identificado llamado davemaoita, del que 
+                         hasta ahora no se tenía conocimiento en el medio natural.
+
+                         <br><br>
+                         Es la primera vez que los científicos consiguen demostrar definitivamente su existencia, pues
+                          hasta la fecha únicamente había sido documentado en experimentos de laboratorio. El equipo 
+                          bautizó el mineral en honor al conocido geofísico sinoamericano Ho-Kwang Mao, cuyas investigaciones 
+                          han sido cruciales para la investigación de las capas inferiores de la Tierra.
+                          <br>
+
+                          El mineralogista Olivier Tschauner, de la Universidad de Nevada en Las Vegas, y sus colegas identificaron 
+                          la composición química y la estructura del nuevo mineral, que calificaron como un tipo de silicato de calcio 
+                          CaSiO3-perovskita a través de técnicas analíticas, como la difracción cristalográfica de rayos X, la fluorescencia 
+                          y la espectroscopia.
+                          <br><br>
+
+                        Hasta la fecha la comunidad científica había estimado que entre el 5 y el 7% del manto interior terrestre 
+                        debía estar compuesto por este mineral, muy difícil de observar en esa capa terrestre (que se extiende hasta 
+                        2.700 kilómetros por debajo de la superficie del planeta). Y es que, a esas profundidades y presiones, los 
+                        minerales empiezan a reorganizar sus estructuras cristalinas modificándolas completamente.
+                        </p>
+                    <br> 
+
+                    <figure class="imgArt">
+                        <img src="https://www.nationalgeographic.com.es/medio/2021/11/17/davemaotita-un-nuevo-mineral_896ea0ee_1246x1338.jpg" class="imgArt">
+                
+                        <figcaption class="letra-reg">
+                            Foto: Aaron Celestial/Museo de Historia Natural de Los Ángeles <br><br>
+                        </figcaption>
+                    </figure>
                     </hgroup>
-                    <time datetime="2022.08-13" pubdate>Publicado el 20-08-2022</time>
                 </header>
-                Este es el contenido del articulo 3
-                <span>Este es <mark>etiqueta mark</mark> y es muy <em><strong>MUY</strong> importante</em></span>
-                <span>Me gusto la pelicula <cite>Avangers</cite></span>
-                <time datetime="2022.08-13" pubdate>Publicado el 12-08-2022</time>
+                
                 <footer>
+                    <time datetime="2021-11-29" pubdate class="tiempo">Publicado el 29-11-2021</time>
+                    <p class="tiempo">Sergi Alcalde</p>
                     <p>Comentarios (0)</p>
                 </footer>
+
             </article>
+
+
+            <article class="articulo">
+                <header>
+                    <hgroup>
+                    <h1 class="tituloHeadorArticulo">Así son los 8 planetas del sistema solar</h1>
+                    <h2>Os contamos todo lo que necesitáis saber sobre cada uno de ellos</h2>
+                    
+                    <br> 
+
+                    <p class="atmo">
+                        Los cuatro primeros, Mercurio, Venus, La Tierra y Marte, tienen algo en común: 
+                        todos se sitúan en las órbitas más cercanas al Sol, cuentan con un núcleo metálico
+                         en su interior y están conformados por materiales sólidos, por lo que reciben el 
+                         nombre de planetas rocosos o planetas interiores.
+                         <br><br>
+                         Por su parte las órbitas de Júpiter, Saturno, Urano y Neptuno se sitúan mucho más
+                          lejos del Sol, en la parte exterior del sistema solar, y están conformados en su 
+                          mayoría por gas, por lo que son conocidos como planetas exteriores o planetas jovianos.
+                          <br><br>
+                          Antaño se consideró y se bautizó a estos 4 planetas como gigantes gaseosos, sin embargo, 
+                          a día de hoy los astrónomos consideran que en nuestro sistema planetario solo 2 planetas 
+                          atienden a esta a esta definición: Júpiter, el planeta mas grande del sistema solar, y 
+                          Saturno, el planeta famoso por sus anillos. En el caso de Urano y Neptuno, que en el pasado
+                           se incluían en esta categoría, ahora son considerados como gigantes helados; la razón es 
+                           que están constituidos principalmente por hielo, roca y gas.
+                           <br><br>
+
+                        Pero más allá de las cualidades que puedan tener en común, cada uno de los planetas del 
+                        sistema solar es un mundo único y presenta unas características muy particulares que lo 
+                        diferencian de los demás. A continuación detallamos todo lo que necesitáis saber sobre 
+                        cada uno de ellos.
+                        </p>
+                    <br> 
+
+                    <figure class="imgArt">
+                        <img src="https://www.nationalgeographic.com.es/medio/2022/07/01/el-sistema-solar-y-sus-planetas_40069d82_480x480.jpg" class="imgArt">
+                
+                        <figcaption class="letra-reg">
+                            El sistema solar y sus planetas <br><br>
+                        </figcaption>
+                    </figure>
+                    </hgroup>
+                </header>
+                
+                <footer>
+                    <time datetime="2022-08-25" pubdate class="tiempo">Publicado el 25-08-2022</time>
+                    <p class="tiempo">Héctor Rodríguez</p>
+                    <p>Comentarios (0)</p>
+                </footer>
+
+            </article>
+
         </section>
 
         <aside id="sidebar">
-            <blockquote> Mensaje numero uno</blockquote>
-            <blockquote> Mensaje numero dos</blockquote>
-            <blockquote> Mensaje numero tres</blockquote>
-            <blockquote> Mensaje numero cuatro</blockquote>
+            <blockquote class="letra-reg"> Explora canales de youtube:
+                <br>
+                <br>
+
+                <div class="videoS">
+                    <iframe src="https://www.youtube.com/embed/P0YEwpWisiE" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                    <blockquote class="letra-reg"> Date Un Vlog</blockquote>
+                </div>
+                <div class="videoS">
+                    <iframe src="https://www.youtube.com/embed/U5VugM_Smco" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe> <br>
+                    <blockquote class="letra-reg">Astronomiaweb</blockquote>
+
+                </div>
+
+                <div class="videoS">
+                    <iframe src="https://www.youtube.com/embed/ZGcylrm_3B8" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe> <br>
+                    <blockquote class="letra-reg">El Robot de Platón</blockquote>
+                </div>
+            </blockquote>
+            <br>
+            <blockquote class="letra-reg">Articulos que te pueden interesar: </blockquote>
+             
+            <div class="videoS">
+                <img src="https://www.masscience.com/wp-content/uploads/2022/06/Platillos-864361_1080x675.jpg" alt="">
+                <blockquote ><a href="https://www.masscience.com/2022/08/18/por-que-no-le-tengo-miedo-a-lo-que-como/" 
+                    target="_blank" class="letra-reg"> ¿Por qué no le tengo miedo a lo que como?</a></blockquote>
+
+            </div>
+            <div class="videoS">
+                <img src="https://www.masscience.com/wp-content/uploads/2022/07/Untitled-1080x675.png" alt="">
+                <blockquote ><a href="https://www.masscience.com/2022/07/19/la-dopamina-y-su-efecto-antioxidante-y-anti-inflamatorio/" 
+                    target="_blank" class="letra-reg"> La dopamina y su efecto antioxidante y anti-inflamatorio</a></blockquote>
+
+            </div>
         </aside>
 
-        <footer id="footer">
-            <small>Todo los derechos reservados para el curso de Programacion Web 1 UVG 2022</small>
-            <address>
-                <a href="www.uvg.edu.gt"></a>
-            </address>
+       
+
+        <footer>
+            <div id="footer">
+                 
+                    <div class="grupo1">
+                        <div class="box">
+                            <h2>Curso de Programación Web 2022</h2> 
+                            
+                        </div>
+                        <div class="box">
+                            <h2>Contacto</h2> 
+                            <ul class="contacto">
+                                <li>Dánika Donis</li>
+                                <li><address>
+                                    <li><a href="https://campussur.uvg.edu.gt/" target="_blank" id="tel">UVG Campus Sur</a></li>
+                                <li><a href="tel:+50240681597" id="tel">+502 40681597</a></li>
+                            </ul>
+                        </div>
+                        <div class="box1">
+                            <h2>Redes Sociales</h2>
+                            <ul class="redes">
+                                <li><a href="https://www.facebook.com/danika.donis.1" target="_blank" ><i class="fa fa-facebook" ></i></a></li>
+                                <li><a href="https://www.instagram.com/danikadonis/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://github.com/danikadns" target="_blank"><i class="fa fa-github"></i></a></li>
+                           </ul>
+                         </div>
+                    </div>
+                   <hr>
+                   
+                    <small> Copyrigth &copy; Todo los derechos reservados para el curso de Programacion Web 1 UVG 2022</small>
+    
+                
+            </div>
         </footer>
+
     </div>
 
     </body>

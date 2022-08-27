@@ -5,18 +5,29 @@
     padding: 0px;
 }
 
+body{
+    background: url(https://w.wallhaven.cc/full/72/wallhaven-72j1qo.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
 /* JERARQUIA DE CABECERAS*/
 
 h1{
-    font: bold 30px verdana, sans-serif;
+    font: bold 26px verdana, sans-serif;
 }
 
 h2{
-    font: bold 20px verdana, sans-serif;
+    font: medium 20px verdana, sans-serif;
 }
 
 h3{
-    font: bold 18px verdana, sans-serif;
+    font: bold 16px verdana, sans-serif;
 }
 
 h4{
@@ -31,6 +42,10 @@ h6{
     font: bold 10px verdana, sans-serif;
 }
 
+p{
+    font: medium 14px Arial;
+}
+
 
 /* DISEÑO DEL TEMPLATE */
 
@@ -41,25 +56,32 @@ h6{
 }
 
 #cabecera{
-    background: green;
+    background: linear-gradient(45deg, #2833DB, #28DB76);
     padding: 20px;
     color: white;
 }
 
 #menu{
-    background: rgb(228, 137, 104);
+    
+    background:#75b9f0;
     padding: 5px 15px;
+    
 }
 
 #menu li{
+    margin-left: 20px;
     display: inline-block;
     list-style: none;
     padding: 5px;
     font: bold 14px sans-serif;
 }
 
+#menu li a:hover{
+    color: rgba(0, 12, 245, 0.832);
+}
+
 #seccionPrincipal{
-    float: left;
+    float: right;
     width: 650px;
     margin: 20px;
 }
@@ -73,10 +95,246 @@ h6{
 }
 
 #footer{
-    clear: both;
+    clear:both;
+    margin-left: 0;
     text-align: center;
-    padding: 20px;
-    border-top: 2px solid silver;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: whitesmoke;
+    border-top: 3px solid rgba(0, 206, 72, 0.799);
+    background: linear-gradient(45deg, #2833DB, #8B1DA3);
+    margin-block-end: 0;
 }
 
-/**/
+
+.box{
+    border: none;
+    margin: 0;
+    text-align: left;
+    margin-top: 0;
+}
+
+.box1{
+    border: none;
+    margin: 0;
+    text-align: center;
+    margin-top: 0;
+}
+
+.grupo1{
+    text-align: center;
+    align-content: center;
+    border: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    
+}
+
+.contacto {
+    list-style: none;
+    text-decoration: none;
+    margin: auto;
+    font: size 16px; 
+}
+.redes a{
+    text-decoration: none;
+    color: white;
+}
+.redes a i{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.redes {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.redes a:hover i{
+    color: rgba(184, 98, 255, 0.832);
+}
+
+
+
+#logo{
+    height: 70px;
+    float: left;
+    margin-right: 20px;
+}
+
+#tel{
+    text-decoration: none;
+    color: aliceblue;
+}
+#tel:hover{
+    color: rgba(184, 98, 255, 0.832);
+}
+
+div.galeria{
+    background-color: white;
+    margin: 20px 30px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+    float: left;
+    width: 250px;
+    height: 450px;
+}
+
+div.galeria img{
+    border: none;
+    border-style: none;
+    width: 100%;
+    height: auto;
+}
+
+div.galeria .foto{
+    border: none;
+    align-content: center;
+}
+
+div.galeria:hover{
+    border: 1px solid blue;
+    transform: rotate(-3deg);
+}
+
+div.pie{
+    border: none;
+    text-align: left;
+    font: bold 14px times;
+    padding: 10px;
+}
+
+.video{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    border: 3px solid red;
+    margin-bottom: 15px;
+    background-color: azure;
+
+}
+
+.video iframe{
+    margin-top: 6px;
+    margin-left:0;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 360px;
+}
+
+.fvideos{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.imgArt{
+    text-align: center;
+}
+
+.imgArt img{
+    height: 200px;
+    width: auto;
+}
+
+.videoS{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    margin-top: 4px;
+    background-color: azure;
+
+}
+
+.videoS iframe{
+    margin-left:0;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.videoS img{
+    margin-left:0;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.documento{
+    text-decoration: none;
+    margin-left:0;
+    text-align: left;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: whitesmoke;
+}
+
+
+.letra-reg{
+    font: bold 16px Arial;
+    text-decoration: none;
+}
+
+.opcion a {
+    text-decoration: none;
+}
+
+.atmo{
+    text-align: justify;
+    font: medium 14px Arial;
+}
+
+.tiempo{
+    color: black;
+}
+
+.slider{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.slider ul{
+    width: 400%;
+    display: flex;
+    animation: movimiento 20s infinite alternate linear;
+
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+
+}
+
+.slider img{
+    width: auto;
+    height: auto;
+
+}
+
+@keyframes movimiento{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%0;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+    
+}

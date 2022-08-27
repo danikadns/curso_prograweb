@@ -4,6 +4,10 @@ p {
     font-size: 20px;
 }
 
+body{
+    background: url("img/001.jpg");
+}
+
 /* REFERENCIA POR EL ATRIBUTO ID */
 
 #textoporid {
@@ -106,4 +110,27 @@ p:last-child{
 
 div > p.mitexto{
     font-family: 'Lucida Sans Unicode';
+}
+
+div.galeria{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+    float: left;
+    width: 350px;
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+}
+
+div.galeria:hover{
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
+}
+
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
 }
