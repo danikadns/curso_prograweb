@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <script src="js/application.js"></script>
+
     </head>
     <body>
         
@@ -22,8 +24,8 @@
 
             </section>
 
-            <h1 id="tituloprincipal">La ciencia en la actualidad</h1>
-            <h2>Discovery</h2>
+            <h1 onclick="mostraralerta()" id="tituloprincipal">La ciencia en la actualidad</h1>
+            <h2 onclick="alert('se hizo clic en el subtitulo');">Principal</h2>
         </header>
 
         <nav id="menu">
@@ -38,6 +40,7 @@
         <section id="seccionPrincipal">
             <article class="articulo">
                 <header>
+                    <p id="parrafoConClick">Tienes que hacer click aquí</p>
                     <hgroup>
                     <h1 class="tituloHeadorArticulo">La atmósfera de la Tierra tiene fecha de caducidad</h1>
                     <h2>Una breve historia del oxígeno en la Tierra</h2>
@@ -82,7 +85,7 @@
                     <time datetime="2022-08-23" pubdate class="tiempo">Publicado el 23-08-2022</time>
                     <br>
                     <p class="tiempo">Héctor Rodríguez</p>
-                    <p>Comentarios (0)</p>
+                    <p id="coment">Comentarios (0)</p>
                 </footer>
 
             </article>
@@ -183,7 +186,7 @@
                         <figcaption class="letra-reg">
                             El sistema solar y sus planetas <br><br>
                         </figcaption>
-                    </figure>
+                    </figure>.
                     </hgroup>
                 </header>
                 
