@@ -10,5 +10,6 @@ if(DEBUG == "true"){
 
 #CLASES DE LA CAPA DEL MODELO DE BASE DE DATOS
 require_once("class/Conn/Tools.php");
+require_once("class/Login/loginModel.php");
 
 ?>
