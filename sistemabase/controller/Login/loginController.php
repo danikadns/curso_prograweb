@@ -22,8 +22,6 @@ if($row = mysqli_fetch_array($result)){
 
     header("location: ../../main.php");
 
-    
-
 }else{
     echo "<script>
     alert('AUTENTICACION FALLIDA, AL PARECER SU USUARIO O CLAVE SON INVALIDOS');
